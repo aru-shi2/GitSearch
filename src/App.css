@@ -207,16 +207,12 @@ body {
   color: #2563eb;
 }
 
-/* Hover effect (optional) */
+
 .bottom span:hover {
   background: #eef2ff;
 }
 
-/* ========================= */
-/* RESPONSIVE STYLES ONLY   */
-/* ========================= */
 
-/* Tablets & small laptops */
 @media (max-width: 1024px) {
   .content {
     max-width: 90%;
@@ -233,7 +229,7 @@ body {
 }
 
 
-/* Tablets & large phones */
+
 @media (max-width: 768px) {
   body {
     overflow-y: auto;
@@ -285,7 +281,7 @@ body {
 }
 
 
-/* Mobile phones */
+
 @media (max-width: 480px) {
   .box {
     padding: 15px;
