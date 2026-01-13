@@ -35,11 +35,11 @@ body {
   margin-bottom: 20px;
 }
 
-
+/* MAIN CONTENT BOX (HEIGHT REDUCED) */
 .content {
   width: 100%;
   max-width: 1000px;
-  height: calc(85% - 70px); 
+  height: calc(85% - 70px); /* FIX */
   background: #869799;
   border-radius: 25px;
   padding: 20px;
@@ -48,7 +48,7 @@ body {
   flex-direction: column;
 }
 
-
+/* INPUT */
 .input {
   display: flex;
   gap: 12px;
@@ -84,13 +84,13 @@ body {
   transform: scale(1.05);
 }
 
-
+/* DATA AREA */
 .data {
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow-y: auto; 
+  overflow-y: auto; /* FIX */
 }
 
 .data p {
@@ -102,21 +102,21 @@ body {
   color: rgb(80, 72, 72);
 }
 
-
+/* INNER CARD (COMPACT) */
 .data > div {
   width: 100%;
   height: 100%;
   background: linear-gradient(135deg, #f8fafc, #e2e8f0);
   border-radius: 20px;
-  padding: 22px; 
+  padding: 22px; /* REDUCED */
   display: flex;
-  gap: 30px; 
+  gap: 30px; /* REDUCED */
   align-items: center;
 }
 
-
+/* IMAGE */
 .img img {
-  width: 190px; 
+  width: 190px; /* REDUCED */
   height: 190px;
   border-radius: 50%;
   border: 8px solid #2563eb;
@@ -124,7 +124,7 @@ body {
   box-shadow: 0 15px 35px rgba(37, 99, 235, 0.4);
 }
 
-
+/* RIGHT CONTENT */
 .data .content {
   background: none;
   box-shadow: none;
@@ -132,9 +132,10 @@ body {
   height: auto;
   display: flex;
   flex-direction: column;
-  gap: 18px; 
+  gap: 18px; /* REDUCED */
 }
 
+/* NAME */
 .name {
   display: flex;
   flex-direction: column;
@@ -159,10 +160,10 @@ body {
   max-width: 500px;
 }
 
-
+/* FOLLOW SECTION */
 .follow {
   display: flex;
-  gap: 120px; 
+  gap: 120px; /* REDUCED */
   justify-content: center;
   align-items: center;
   background: #434444c2;
@@ -170,12 +171,12 @@ body {
   padding: 16px 15px;
   border-radius: 10px;
   font-weight: 700;
-  min-height: 75px; 
+  min-height: 75px; /* REDUCED */
   text-align: center;
   box-shadow: 0 10px 30px rgba(34, 197, 94, 0.4);
 }
 
-
+/* BOTTOM INFO */
 .bottom {
   display: grid;
   grid-template-columns: repeat(2, 3fr);
@@ -204,7 +205,7 @@ body {
   background: #eef2ff;
 }
 
-
+/* RESPONSIVE */
 @media (max-width: 1024px) {
   .content {
     max-width: 90%;
