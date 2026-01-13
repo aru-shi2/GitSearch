@@ -1,16 +1,64 @@
-# React + Vite
+# 🔍 GitSearch
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GitSearch is a responsive GitHub Profile Finder web app that allows users to search for GitHub profiles and view detailed information in a clean and simple UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
 
-## React Compiler
+👉 **Live Site:** https://gitsearchh.netlify.app  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔎 Search GitHub users by **username**
+- 👤 Displays user **profile picture, name, bio**
+- 📊 Shows **followers, following, and repositories count**
+- 📁 View list of public repositories
+- 🌍 Displays additional details like:
+  - Location
+  - Company
+  - Blog / Website (clickable)
+  - Twitter username
+- 📱 Fully **responsive design** (mobile & desktop)
+- ⚡ Fast performance using Vite
+
+---
+
+## 🛠️ Tech Stack
+
+- **React**
+- **Vite**
+- **HTML**
+- **CSS**
+- **GitHub REST API**
+
+---
+
+## ⚙️ Getting Started
+
+Follow these steps to run the project locally:
+
+### Clone the repository
+```bash
+git clone https://github.com/aru-shi2/gitsearch.git
+```
+
+### Navigate to project directory 
+```bash
+cd gitsearch
+```
+### Install dependencies 
+```bash
+npm install 
+```
+
+### Start development server
+```bash
+npm run dev
+```
+### app will run at:
+```bash
+http://localhost:5173
+```
