@@ -11,7 +11,7 @@ GitSearch is a responsive GitHub Profile Finder web app that allows users to sea
 ---
 
 ## 📸 Screenshot
-![1000046738](https://github.com/user-attachments/assets/4ac618ad-1b2f-4fd3-80cd-0a819cce68e5)
+<img src="public/Screenshot (195).png" width="530" />
 
 ---
 ## 🚀 Features
